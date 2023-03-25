@@ -1,6 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+  .number-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.piano-button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+.piano-button:hover {
+  background-color: #ccc;
+}
+
+.piano-sounds audio {
+  display: none;
+}
+    
+    </style>
     <meta charset="UTF-8">
     <title>Piano Sounds</title>
     <link rel="stylesheet" href="style.css">
